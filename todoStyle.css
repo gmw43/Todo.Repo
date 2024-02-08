@@ -1,0 +1,70 @@
+body {
+  background-color: #eeeeee;
+}
+
+.Todo_Card {
+  margin: auto;
+  width: 30%;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.list_Name {
+  text-align: center;
+  font-size: 30px;
+}
+
+.input {
+  width: calc(100% - 30px);
+  padding: 15px;
+  /* border: none; */
+  background-color: rgb(243, 243, 243);
+  font-size: large;
+}
+
+input:focus {
+  outline: none;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ////////////////////////  CSS FOR DYNAMIC CREATED LIST     //////////////////////// */
+
+#display_list {
+  margin-top: 1.5rem;
+}
+
+.dynamic_list {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 15px;
+  margin: 5px 0;
+}
+
+.dynamic_list h4 {
+  margin: 0;
+}
+
+#delbtn {
+  background-color: rgb(224, 68, 63);
+}
+#editbtn {
+  background-color: rgb(39, 39, 247);
+}
+
+#editbtn,
+#delbtn {
+  color: white;
+  padding: 5px;
+  border: unset;
+  border-radius: 5px;
+  cursor: pointer;
+}
